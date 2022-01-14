@@ -1,0 +1,5 @@
+INFO	2022-01-11 14:11:57,603	[logger.py:38]	hello world
+INFO	2022-01-11 14:13:41,824	[logger.py:38]	hello world
+INFO	2022-01-11 14:17:16,716	[logger.py:38]	hello world
+INFO	2022-01-11 15:06:08,788	[logger.py:38]	hello world
+INFO	2022-01-13 09:14:20,608	[logger.py:38]	hello world

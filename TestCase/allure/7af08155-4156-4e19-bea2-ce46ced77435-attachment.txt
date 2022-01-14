@@ -1,0 +1,46 @@
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:59176/session/df885c943ecc3102eadf5b7843bd4826/window/maximize {}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:59176 "POST /session/df885c943ecc3102eadf5b7843bd4826/window/maximize HTTP/1.1" 200 52
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:59176/session/df885c943ecc3102eadf5b7843bd4826/timeouts {"pageLoad": 60000}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:59176 "POST /session/df885c943ecc3102eadf5b7843bd4826/timeouts HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:59176/session/df885c943ecc3102eadf5b7843bd4826/url {"url": "https://user.chaojidun.com/login"}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:59176 "POST /session/df885c943ecc3102eadf5b7843bd4826/url HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:59176/session/df885c943ecc3102eadf5b7843bd4826/timeouts {"implicit": 10000}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:59176 "POST /session/df885c943ecc3102eadf5b7843bd4826/timeouts HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+INFO     root:webpage.py:32 打开网页：https://user.chaojidun.com/login
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:59176/session/df885c943ecc3102eadf5b7843bd4826/element {"using": "xpath", "value": "//*[@id=\"app\"]/div/div/div[2]/div/div[2]/div/div[2]/form/div/div[2]/div/div/input"}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:59176 "POST /session/df885c943ecc3102eadf5b7843bd4826/element HTTP/1.1" 200 88
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:59176/session/df885c943ecc3102eadf5b7843bd4826/element/dca2e0cd-66f5-4794-baa4-c57087575811/clear {"id": "dca2e0cd-66f5-4794-baa4-c57087575811"}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:59176 "POST /session/df885c943ecc3102eadf5b7843bd4826/element/dca2e0cd-66f5-4794-baa4-c57087575811/clear HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:59176/session/df885c943ecc3102eadf5b7843bd4826/element/dca2e0cd-66f5-4794-baa4-c57087575811/value {"text": "17379966461", "value": ["1", "7", "3", "7", "9", "9", "6", "6", "4", "6", "1"], "id": "dca2e0cd-66f5-4794-baa4-c57087575811"}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:59176 "POST /session/df885c943ecc3102eadf5b7843bd4826/element/dca2e0cd-66f5-4794-baa4-c57087575811/value HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+INFO     root:webpage.py:64 输入文本：17379966461
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:59176/session/df885c943ecc3102eadf5b7843bd4826/element {"using": "xpath", "value": "//*[@id=\"app\"]/div/div/div[2]/div/div[2]/div/div[2]/form/div/div[3]/div/div/input"}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:59176 "POST /session/df885c943ecc3102eadf5b7843bd4826/element HTTP/1.1" 200 88
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:59176/session/df885c943ecc3102eadf5b7843bd4826/element/498a7578-4228-46a1-9bcd-940e4fef13eb/clear {"id": "498a7578-4228-46a1-9bcd-940e4fef13eb"}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:59176 "POST /session/df885c943ecc3102eadf5b7843bd4826/element/498a7578-4228-46a1-9bcd-940e4fef13eb/clear HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:59176/session/df885c943ecc3102eadf5b7843bd4826/element/498a7578-4228-46a1-9bcd-940e4fef13eb/value {"text": "hj123456", "value": ["h", "j", "1", "2", "3", "4", "5", "6"], "id": "498a7578-4228-46a1-9bcd-940e4fef13eb"}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:59176 "POST /session/df885c943ecc3102eadf5b7843bd4826/element/498a7578-4228-46a1-9bcd-940e4fef13eb/value HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+INFO     root:webpage.py:64 输入文本：hj123456
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:59176/session/df885c943ecc3102eadf5b7843bd4826/element {"using": "xpath", "value": "//*[@id=\"app\"]/div/div/div[2]/div/div[2]/div/div[2]/form/div/div[4]/div/button/span"}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:59176 "POST /session/df885c943ecc3102eadf5b7843bd4826/element HTTP/1.1" 200 88
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:59176/session/df885c943ecc3102eadf5b7843bd4826/element/cf1af0f5-57ca-49c5-9955-dcb144e549da/click {"id": "cf1af0f5-57ca-49c5-9955-dcb144e549da"}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:59176 "POST /session/df885c943ecc3102eadf5b7843bd4826/element/cf1af0f5-57ca-49c5-9955-dcb144e549da/click HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+INFO     root:webpage.py:70 点击元素：('xpath', '//*[@id="app"]/div/div/div[2]/div/div[2]/div/div[2]/form/div/div[4]/div/button/span')
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 GET http://127.0.0.1:59176/session/df885c943ecc3102eadf5b7843bd4826/url {}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:59176 "GET /session/df885c943ecc3102eadf5b7843bd4826/url HTTP/1.1" 200 50
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 DELETE http://127.0.0.1:59176/session/df885c943ecc3102eadf5b7843bd4826 {}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:59176 "DELETE /session/df885c943ecc3102eadf5b7843bd4826 HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request

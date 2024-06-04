@@ -61,5 +61,5 @@ class TestLogin:
         assert str == search.get_search_infor()
 
 if __name__ == '__main__':
-    pytest.main(['-sv', 'test_search.py', '--alluredir=./allure'])
+    pytest.main(['-sv', 'test_login.py', '--alluredir=./allure'])
     os.system('allure serve allure')

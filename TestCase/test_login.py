@@ -12,8 +12,8 @@ import time
 @allure.feature("测试超级盾登录模块")
 class TestLogin:
     @pytest.fixture(scope='function', autouse=True)
-    def open_baidu(self, drivers):
-        """打开百度"""
+    def open_url(self, drivers):
+        """打开网址"""
         search = SearchPage(drivers)
         search.get_url(ini.url)
 
